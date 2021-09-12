@@ -328,5 +328,15 @@ namespace Lap3_Demo
             frmtuyChon.AnSapXep();
             frmtuyChon.ShowDialog();
         }
+
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            lvSinhVien.Font = new Font("Arial",15);
+        }
+
+        private void màuChữToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            lvSinhVien.ForeColor = Color.Red;
+        }
     }
 }

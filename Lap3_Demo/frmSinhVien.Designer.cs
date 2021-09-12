@@ -541,12 +541,14 @@ namespace Lap3_Demo
             this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
             this.fontToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.fontToolStripMenuItem.Text = "Font";
+            this.fontToolStripMenuItem.Click += new System.EventHandler(this.fontToolStripMenuItem_Click);
             // 
             // màuChữToolStripMenuItem
             // 
             this.màuChữToolStripMenuItem.Name = "màuChữToolStripMenuItem";
             this.màuChữToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.màuChữToolStripMenuItem.Text = "Màu Chữ";
+            this.màuChữToolStripMenuItem.Click += new System.EventHandler(this.màuChữToolStripMenuItem_Click);
             // 
             // sắpXếpToolStripMenuItem
             // 
