@@ -338,5 +338,6 @@ namespace Lap3_Demo
         {
             lvSinhVien.ForeColor = Color.Red;
         }
+        ////
     }
 }
